@@ -57,7 +57,7 @@ The ProcessFlowGPT App runs on your local machine via Ollama framework. To use t
      >  Ollama run <Model_Name>
      
        ```bash
-          Ollama run mistral
+          ollama run mistral:7b
        ```
      
      > This command will check if the model is available in the local repo on your machine, if not then it will fetch the LLM model from Ollama Website and then start running it.
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ### Running ProcessFlowGPT Locally via CLI
 ProcessFlowGPT uses open-source LLM models running on your machine via the **Ollama** framework. To run these models, the user needs to install Ollama (as detailed in the Prerequisite section above). 
 
-We assume that you have installed the Ollama framework and downloaded the open LLM models such as [Mistral](https://mistral.ai/technology/#models), or Meta's [Llama 2](https://llama.meta.com/), [Codelama](https://ai.meta.com/blog/code-llama-large-language-model-coding/), to name just a few.
+We assume that you have installed the Ollama framework and downloaded the open LLM models such as [Mistral](https://mistral.ai/technology/#models), or Meta's [Llama](https://llama.com/), to name just a few.
 
 > To run the ProcessFlowGPT via command-line interface (CLI) use the following command: 
 
@@ -107,11 +107,7 @@ streamlit run process-flow-gpt.py
 ---
 
 ## Further Reading on Llama | Meta
-- [Llama website](https://ai.meta.com/llama/)
-- [Llama technical overview](https://ai.meta.com/resources/models-and-libraries/llama/)
-- [Llama GitHub repo](https://github.com/facebookresearch/llama/tree/main)
-- [Llama 2 blog](https://ai.meta.com/blog/llama-2/)
-- [Llama 2 research article](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
+- [Llama website](https://www.llama.com/) 
 
 ## 🛡️Responsible AI 
 :european_union: **EU's Guidelines on the responsible use of generative AI in research:** https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/guidelines-responsible-use-generative-ai-research-developed-european-research-area-forum-2024-03-20_en
